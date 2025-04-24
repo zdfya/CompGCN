@@ -1,0 +1,307 @@
+2025-04-23 22:58:51 [INFO] ========== Run Start ==========
+2025-04-23 22:58:51 [INFO] Parameters: {'name': 'test_run', 'dataset': 'FB15k-237', 'score_func': 'conve', 'decoder_model': 'distmult', 'opn': 'mult', 'input_drop': 0.2, 'feat_drop': 0.2, 'out_dim': 100, 'batch_size': 512, 'gpu': 0, 'max_epochs': 100, 'lr': 0.001, 'l2': 0.0, 'lbl_smooth': 0.1, 'num_workers': 4, 'seed': 12345, 'restore': False, 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 300, 'embed_dim': None, 'n_layer': 2, 'gcn_drop': 0.1, 'hid_drop': 0.3, 'conve_hid_drop': 0.3, 'k_w': 10, 'k_h': 10, 'num_filt': 200, 'ker_sz': 7, 'node_drop': 0.1}
+2025-04-23 22:59:08 [INFO] Epoch 1: new best MRR=0.0008, model saved.
+2025-04-23 22:59:20 [INFO] Epoch 2: new best MRR=0.0237, model saved.
+2025-04-23 22:59:31 [INFO] Epoch 3: new best MRR=0.0311, model saved.
+2025-04-23 22:59:43 [INFO] Epoch 4: new best MRR=0.0419, model saved.
+2025-04-23 22:59:54 [INFO] Epoch 5: new best MRR=0.0497, model saved.
+2025-04-23 23:00:06 [INFO] Epoch 6: new best MRR=0.0572, model saved.
+2025-04-23 23:00:17 [INFO] Epoch 7: new best MRR=0.0656, model saved.
+2025-04-23 23:00:29 [INFO] Epoch 8: new best MRR=0.0733, model saved.
+2025-04-23 23:00:40 [INFO] Epoch 9: new best MRR=0.0821, model saved.
+2025-04-23 23:00:52 [INFO] Epoch 10: new best MRR=0.0937, model saved.
+2025-04-23 23:01:03 [INFO] Epoch 11: new best MRR=0.1031, model saved.
+2025-04-23 23:01:15 [INFO] Epoch 12: new best MRR=0.1119, model saved.
+2025-04-23 23:01:27 [INFO] Epoch 13: new best MRR=0.1227, model saved.
+2025-04-23 23:01:38 [INFO] Epoch 14: new best MRR=0.1328, model saved.
+2025-04-23 23:01:50 [INFO] Epoch 15: new best MRR=0.1413, model saved.
+2025-04-23 23:02:02 [INFO] Epoch 16: new best MRR=0.1484, model saved.
+2025-04-23 23:02:13 [INFO] Epoch 17: new best MRR=0.1554, model saved.
+2025-04-23 23:02:25 [INFO] Epoch 18: new best MRR=0.1616, model saved.
+2025-04-23 23:02:36 [INFO] Epoch 19: new best MRR=0.1680, model saved.
+2025-04-23 23:02:48 [INFO] Epoch 20: new best MRR=0.1732, model saved.
+2025-04-23 23:02:59 [INFO] Epoch 21: new best MRR=0.1784, model saved.
+2025-04-23 23:03:11 [INFO] Epoch 22: new best MRR=0.1829, model saved.
+2025-04-23 23:03:23 [INFO] Epoch 23: new best MRR=0.1865, model saved.
+2025-04-23 23:03:35 [INFO] Epoch 24: new best MRR=0.1898, model saved.
+2025-04-23 23:03:46 [INFO] Epoch 25: new best MRR=0.1934, model saved.
+2025-04-23 23:03:58 [INFO] Epoch 26: new best MRR=0.1971, model saved.
+2025-04-23 23:04:09 [INFO] Epoch 27: new best MRR=0.1980, model saved.
+2025-04-23 23:04:21 [INFO] Epoch 28: new best MRR=0.2009, model saved.
+2025-04-23 23:04:32 [INFO] Epoch 29: new best MRR=0.2026, model saved.
+2025-04-23 23:04:44 [INFO] Epoch 30: new best MRR=0.2047, model saved.
+2025-04-23 23:04:55 [INFO] Epoch 31: new best MRR=0.2055, model saved.
+2025-04-23 23:05:07 [INFO] Epoch 32: new best MRR=0.2072, model saved.
+2025-04-23 23:05:19 [INFO] Epoch 33: new best MRR=0.2081, model saved.
+2025-04-23 23:05:30 [INFO] Epoch 34: new best MRR=0.2108, model saved.
+2025-04-23 23:05:42 [INFO] Epoch 35: new best MRR=0.2120, model saved.
+2025-04-23 23:05:53 [INFO] Epoch 36: new best MRR=0.2142, model saved.
+2025-04-23 23:06:06 [INFO] Epoch 37: new best MRR=0.2156, model saved.
+2025-04-23 23:06:18 [INFO] Epoch 38: new best MRR=0.2171, model saved.
+2025-04-23 23:06:29 [INFO] Epoch 39: new best MRR=0.2184, model saved.
+2025-04-23 23:06:42 [INFO] Epoch 40: new best MRR=0.2209, model saved.
+2025-04-23 23:06:54 [INFO] Epoch 41: new best MRR=0.2225, model saved.
+2025-04-23 23:07:07 [INFO] Epoch 42: new best MRR=0.2237, model saved.
+2025-04-23 23:07:18 [INFO] Epoch 43: new best MRR=0.2253, model saved.
+2025-04-23 23:07:30 [INFO] Epoch 44: new best MRR=0.2284, model saved.
+2025-04-23 23:07:42 [INFO] Epoch 45: new best MRR=0.2290, model saved.
+2025-04-23 23:07:54 [INFO] Epoch 46: new best MRR=0.2304, model saved.
+2025-04-23 23:08:05 [INFO] Epoch 47: new best MRR=0.2326, model saved.
+2025-04-23 23:08:17 [INFO] Epoch 48: new best MRR=0.2328, model saved.
+2025-04-23 23:08:28 [INFO] Epoch 49: new best MRR=0.2344, model saved.
+2025-04-23 23:08:40 [INFO] Epoch 50: new best MRR=0.2362, model saved.
+2025-04-23 23:08:52 [INFO] Epoch 51: new best MRR=0.2372, model saved.
+2025-04-23 23:09:04 [INFO] Epoch 52: new best MRR=0.2386, model saved.
+2025-04-23 23:09:16 [INFO] Epoch 53: new best MRR=0.2397, model saved.
+2025-04-23 23:09:27 [INFO] Epoch 54: new best MRR=0.2409, model saved.
+2025-04-23 23:09:39 [INFO] Epoch 55: new best MRR=0.2430, model saved.
+2025-04-23 23:09:50 [INFO] Epoch 56: new best MRR=0.2435, model saved.
+2025-04-23 23:10:02 [INFO] Epoch 57: new best MRR=0.2452, model saved.
+2025-04-23 23:10:14 [INFO] Epoch 58: new best MRR=0.2466, model saved.
+2025-04-23 23:10:27 [INFO] Epoch 59: new best MRR=0.2473, model saved.
+2025-04-23 23:10:38 [INFO] Epoch 60: new best MRR=0.2484, model saved.
+2025-04-23 23:10:50 [INFO] Epoch 61: new best MRR=0.2495, model saved.
+2025-04-23 23:11:02 [INFO] Epoch 62: new best MRR=0.2514, model saved.
+2025-04-23 23:11:14 [INFO] Epoch 63: MRR=0.2514, loss=0.0015, time=11.6s
+2025-04-23 23:11:26 [INFO] Epoch 64: new best MRR=0.2532, model saved.
+2025-04-23 23:11:38 [INFO] Epoch 65: new best MRR=0.2534, model saved.
+2025-04-23 23:11:50 [INFO] Epoch 66: new best MRR=0.2549, model saved.
+2025-04-23 23:12:03 [INFO] Epoch 67: new best MRR=0.2552, model saved.
+2025-04-23 23:12:15 [INFO] Epoch 68: new best MRR=0.2570, model saved.
+2025-04-23 23:12:26 [INFO] Epoch 69: MRR=0.2568, loss=0.0015, time=11.6s
+2025-04-23 23:12:39 [INFO] Epoch 70: new best MRR=0.2574, model saved.
+2025-04-23 23:12:51 [INFO] Epoch 71: new best MRR=0.2588, model saved.
+2025-04-23 23:13:03 [INFO] Epoch 72: new best MRR=0.2598, model saved.
+2025-04-23 23:13:15 [INFO] Epoch 73: new best MRR=0.2599, model saved.
+2025-04-23 23:13:27 [INFO] Epoch 74: new best MRR=0.2609, model saved.
+2025-04-23 23:13:39 [INFO] Epoch 75: new best MRR=0.2610, model saved.
+2025-04-23 23:13:50 [INFO] Epoch 76: new best MRR=0.2621, model saved.
+2025-04-23 23:14:02 [INFO] Epoch 77: new best MRR=0.2641, model saved.
+2025-04-23 23:14:14 [INFO] Epoch 78: MRR=0.2637, loss=0.0014, time=11.7s
+2025-04-23 23:14:26 [INFO] Epoch 79: MRR=0.2640, loss=0.0014, time=11.7s
+2025-04-23 23:14:37 [INFO] Epoch 80: MRR=0.2641, loss=0.0014, time=11.8s
+2025-04-23 23:14:49 [INFO] Epoch 81: new best MRR=0.2658, model saved.
+2025-04-23 23:15:01 [INFO] Epoch 82: new best MRR=0.2660, model saved.
+2025-04-23 23:15:13 [INFO] Epoch 83: new best MRR=0.2672, model saved.
+2025-04-23 23:15:26 [INFO] Epoch 84: new best MRR=0.2678, model saved.
+2025-04-23 23:15:38 [INFO] Epoch 85: MRR=0.2671, loss=0.0014, time=12.4s
+2025-04-23 23:15:50 [INFO] Epoch 86: new best MRR=0.2686, model saved.
+2025-04-23 23:16:01 [INFO] Epoch 87: MRR=0.2680, loss=0.0014, time=11.8s
+2025-04-23 23:16:13 [INFO] Epoch 88: new best MRR=0.2701, model saved.
+2025-04-23 23:16:25 [INFO] Epoch 89: MRR=0.2701, loss=0.0014, time=11.7s
+2025-04-23 23:16:37 [INFO] Epoch 90: new best MRR=0.2708, model saved.
+2025-04-23 23:16:48 [INFO] Epoch 91: new best MRR=0.2710, model saved.
+2025-04-23 23:17:00 [INFO] Epoch 92: new best MRR=0.2714, model saved.
+2025-04-23 23:17:12 [INFO] Epoch 93: new best MRR=0.2716, model saved.
+2025-04-23 23:17:24 [INFO] Epoch 94: new best MRR=0.2724, model saved.
+2025-04-23 23:17:35 [INFO] Epoch 95: new best MRR=0.2733, model saved.
+2025-04-23 23:17:47 [INFO] Epoch 96: new best MRR=0.2733, model saved.
+2025-04-23 23:17:59 [INFO] Epoch 97: new best MRR=0.2735, model saved.
+2025-04-23 23:18:11 [INFO] Epoch 98: new best MRR=0.2741, model saved.
+2025-04-23 23:18:23 [INFO] Epoch 99: new best MRR=0.2753, model saved.
+2025-04-23 23:18:34 [INFO] Epoch 100: MRR=0.2745, loss=0.0013, time=11.4s
+2025-04-23 23:18:36 [INFO] Test results — MRR: 0.2713, Hits@1: 0.1950, Hits@3: 0.2971, Hits@10: 0.4241
+
+2025-04-23 23:26:00 [INFO] ========== Run Start ==========
+2025-04-23 23:26:00 [INFO] Parameters: {'name': 'test_run', 'dataset': 'FB15k-237', 'score_func': 'conve', 'decoder_model': 'conve', 'opn': 'mult', 'input_drop': 0.2, 'feat_drop': 0.2, 'out_dim': 100, 'batch_size': 512, 'gpu': 0, 'max_epochs': 200, 'lr': 0.001, 'l2': 0.0, 'lbl_smooth': 0.1, 'num_workers': 4, 'seed': 12345, 'restore': False, 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 300, 'embed_dim': None, 'n_layer': 2, 'gcn_drop': 0.1, 'hid_drop': 0.3, 'conve_hid_drop': 0.3, 'k_w': 10, 'k_h': 10, 'num_filt': 200, 'ker_sz': 7, 'node_drop': 0.1}
+2025-04-23 23:26:19 [INFO] Epoch 1: new best MRR=0.0036, loss=0.1057, time=13.8s, model saved.
+2025-04-23 23:26:32 [INFO] Epoch 2: new best MRR=0.0277, loss=0.0039, time=13.7s, model saved.
+2025-04-23 23:26:46 [INFO] Epoch 3: new best MRR=0.0507, loss=0.0031, time=13.9s, model saved.
+2025-04-23 23:27:01 [INFO] Epoch 4: new best MRR=0.0620, loss=0.0028, time=14.3s, model saved.
+2025-04-23 23:27:15 [INFO] Epoch 5: new best MRR=0.0761, loss=0.0027, time=14.1s, model saved.
+2025-04-23 23:27:28 [INFO] Epoch 6: new best MRR=0.0803, loss=0.0026, time=13.0s, model saved.
+2025-04-23 23:27:41 [INFO] Epoch 7: new best MRR=0.1020, loss=0.0026, time=13.1s, model saved.
+2025-04-23 23:27:53 [INFO] Epoch 8: new best MRR=0.1104, loss=0.0025, time=12.6s, model saved.
+2025-04-23 23:28:06 [INFO] Epoch 9: new best MRR=0.1263, loss=0.0025, time=12.7s, model saved.
+2025-04-23 23:28:19 [INFO] Epoch 10: new best MRR=0.1398, loss=0.0024, time=12.6s, model saved.
+2025-04-23 23:28:31 [INFO] Epoch 11: new best MRR=0.1559, loss=0.0024, time=12.5s, model saved.
+2025-04-23 23:28:44 [INFO] Epoch 12: new best MRR=0.1616, loss=0.0023, time=12.5s, model saved.
+2025-04-23 23:28:57 [INFO] Epoch 13: new best MRR=0.1719, loss=0.0023, time=12.6s, model saved.
+2025-04-23 23:29:09 [INFO] Epoch 14: new best MRR=0.1837, loss=0.0022, time=12.5s, model saved.
+2025-04-23 23:29:22 [INFO] Epoch 15: new best MRR=0.1878, loss=0.0022, time=12.5s, model saved.
+2025-04-23 23:29:34 [INFO] Epoch 16: new best MRR=0.2006, loss=0.0021, time=12.5s, model saved.
+2025-04-23 23:29:47 [INFO] Epoch 17: new best MRR=0.2035, loss=0.0021, time=12.5s, model saved.
+2025-04-23 23:29:59 [INFO] Epoch 18: new best MRR=0.2104, loss=0.0021, time=12.5s, model saved.
+2025-04-23 23:30:12 [INFO] Epoch 19: new best MRR=0.2162, loss=0.0020, time=12.5s, model saved.
+2025-04-23 23:30:24 [INFO] Epoch 20: new best MRR=0.2191, loss=0.0020, time=12.5s, model saved.
+2025-04-23 23:30:37 [INFO] Epoch 21: new best MRR=0.2236, loss=0.0020, time=12.5s, model saved.
+2025-04-23 23:30:49 [INFO] Epoch 22: new best MRR=0.2272, loss=0.0019, time=12.6s, model saved.
+2025-04-23 23:31:02 [INFO] Epoch 23: new best MRR=0.2284, loss=0.0019, time=12.5s, model saved.
+2025-04-23 23:31:14 [INFO] Epoch 24: new best MRR=0.2329, loss=0.0019, time=12.4s, model saved.
+2025-04-23 23:31:27 [INFO] Epoch 25: new best MRR=0.2415, loss=0.0019, time=12.6s, model saved.
+2025-04-23 23:31:40 [INFO] Epoch 26: new best MRR=0.2444, loss=0.0018, time=12.6s, model saved.
+2025-04-23 23:31:52 [INFO] Epoch 27: new best MRR=0.2507, loss=0.0018, time=12.6s, model saved.
+2025-04-23 23:32:05 [INFO] Epoch 28: new best MRR=0.2519, loss=0.0018, time=12.5s, model saved.
+2025-04-23 23:32:17 [INFO] Epoch 29: new best MRR=0.2522, loss=0.0018, time=12.4s, model saved.
+2025-04-23 23:32:30 [INFO] Epoch 30: new best MRR=0.2570, loss=0.0018, time=12.5s, model saved.
+2025-04-23 23:32:42 [INFO] Epoch 31: new best MRR=0.2594, loss=0.0018, time=12.4s, model saved.
+2025-04-23 23:32:55 [INFO] Epoch 32: new best MRR=0.2646, loss=0.0017, time=12.5s, model saved.
+2025-04-23 23:33:08 [INFO] Epoch 33: new best MRR=0.2675, loss=0.0017, time=12.5s, model saved.
+2025-04-23 23:33:20 [INFO] Epoch 34: MRR=0.2664, loss=0.0017, time=12.5s
+2025-04-23 23:33:32 [INFO] Epoch 35: new best MRR=0.2708, loss=0.0017, time=12.4s, model saved.
+2025-04-23 23:33:45 [INFO] Epoch 36: new best MRR=0.2751, loss=0.0017, time=12.5s, model saved.
+2025-04-23 23:33:58 [INFO] Epoch 37: MRR=0.2733, loss=0.0017, time=12.6s
+2025-04-23 23:34:10 [INFO] Epoch 38: new best MRR=0.2817, loss=0.0017, time=12.5s, model saved.
+2025-04-23 23:34:23 [INFO] Epoch 39: new best MRR=0.2840, loss=0.0017, time=12.6s, model saved.
+2025-04-23 23:34:35 [INFO] Epoch 40: MRR=0.2828, loss=0.0016, time=12.6s
+2025-04-23 23:34:48 [INFO] Epoch 41: new best MRR=0.2861, loss=0.0016, time=12.4s, model saved.
+2025-04-23 23:35:00 [INFO] Epoch 42: new best MRR=0.2894, loss=0.0016, time=12.4s, model saved.
+2025-04-23 23:35:13 [INFO] Epoch 43: new best MRR=0.2931, loss=0.0016, time=12.5s, model saved.
+2025-04-23 23:35:25 [INFO] Epoch 44: new best MRR=0.2958, loss=0.0016, time=12.4s, model saved.
+2025-04-23 23:35:38 [INFO] Epoch 45: new best MRR=0.2982, loss=0.0016, time=12.4s, model saved.
+2025-04-23 23:35:50 [INFO] Epoch 46: new best MRR=0.2983, loss=0.0016, time=12.7s, model saved.
+2025-04-23 23:36:03 [INFO] Epoch 47: new best MRR=0.3024, loss=0.0016, time=12.1s, model saved.
+2025-04-23 23:36:15 [INFO] Epoch 48: MRR=0.3018, loss=0.0016, time=12.3s
+2025-04-23 23:36:28 [INFO] Epoch 49: new best MRR=0.3064, loss=0.0016, time=12.8s, model saved.
+2025-04-23 23:36:40 [INFO] Epoch 50: new best MRR=0.3078, loss=0.0016, time=12.5s, model saved.
+2025-04-23 23:36:53 [INFO] Epoch 51: MRR=0.3070, loss=0.0016, time=12.8s
+2025-04-23 23:37:06 [INFO] Epoch 52: new best MRR=0.3092, loss=0.0016, time=12.9s, model saved.
+2025-04-23 23:37:19 [INFO] Epoch 53: MRR=0.3077, loss=0.0016, time=13.2s
+2025-04-23 23:37:32 [INFO] Epoch 54: new best MRR=0.3138, loss=0.0015, time=12.9s, model saved.
+2025-04-23 23:37:45 [INFO] Epoch 55: new best MRR=0.3140, loss=0.0015, time=12.6s, model saved.
+2025-04-23 23:37:58 [INFO] Epoch 56: new best MRR=0.3155, loss=0.0015, time=12.7s, model saved.
+2025-04-23 23:38:10 [INFO] Epoch 57: new best MRR=0.3157, loss=0.0015, time=12.6s, model saved.
+2025-04-23 23:38:23 [INFO] Epoch 58: new best MRR=0.3187, loss=0.0015, time=12.5s, model saved.
+2025-04-23 23:38:35 [INFO] Epoch 59: new best MRR=0.3220, loss=0.0015, time=12.5s, model saved.
+2025-04-23 23:38:48 [INFO] Epoch 60: MRR=0.3194, loss=0.0015, time=12.5s
+2025-04-23 23:39:00 [INFO] Epoch 61: MRR=0.3205, loss=0.0015, time=12.4s
+2025-04-23 23:39:13 [INFO] Epoch 62: MRR=0.3211, loss=0.0015, time=12.4s
+2025-04-23 23:39:25 [INFO] Epoch 63: new best MRR=0.3247, loss=0.0015, time=12.4s, model saved.
+2025-04-23 23:39:38 [INFO] Epoch 64: MRR=0.3222, loss=0.0015, time=12.7s
+2025-04-23 23:39:50 [INFO] Epoch 65: new best MRR=0.3248, loss=0.0015, time=12.7s, model saved.
+2025-04-23 23:40:03 [INFO] Epoch 66: new best MRR=0.3256, loss=0.0015, time=12.8s, model saved.
+2025-04-23 23:40:16 [INFO] Epoch 67: new best MRR=0.3281, loss=0.0015, time=12.5s, model saved.
+2025-04-23 23:40:29 [INFO] Epoch 68: new best MRR=0.3282, loss=0.0015, time=12.7s, model saved.
+2025-04-23 23:40:41 [INFO] Epoch 69: new best MRR=0.3285, loss=0.0015, time=12.5s, model saved.
+2025-04-23 23:40:54 [INFO] Epoch 70: MRR=0.3274, loss=0.0015, time=12.5s
+2025-04-23 23:41:06 [INFO] Epoch 71: new best MRR=0.3309, loss=0.0015, time=12.6s, model saved.
+2025-04-23 23:41:19 [INFO] Epoch 72: MRR=0.3282, loss=0.0015, time=12.7s
+2025-04-23 23:41:31 [INFO] Epoch 73: MRR=0.3300, loss=0.0015, time=12.5s
+2025-04-23 23:41:44 [INFO] Epoch 74: MRR=0.3305, loss=0.0014, time=12.7s
+2025-04-23 23:41:57 [INFO] Epoch 75: MRR=0.3301, loss=0.0014, time=12.7s
+2025-04-23 23:42:09 [INFO] Epoch 76: new best MRR=0.3332, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:42:22 [INFO] Epoch 77: new best MRR=0.3341, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:42:34 [INFO] Epoch 78: new best MRR=0.3350, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:42:47 [INFO] Epoch 79: MRR=0.3342, loss=0.0014, time=12.5s
+2025-04-23 23:43:00 [INFO] Epoch 80: MRR=0.3345, loss=0.0014, time=12.6s
+2025-04-23 23:43:12 [INFO] Epoch 81: MRR=0.3345, loss=0.0014, time=12.7s
+2025-04-23 23:43:25 [INFO] Epoch 82: new best MRR=0.3356, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:43:38 [INFO] Epoch 83: new best MRR=0.3358, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:43:50 [INFO] Epoch 84: new best MRR=0.3359, loss=0.0014, time=12.7s, model saved.
+2025-04-23 23:44:03 [INFO] Epoch 85: new best MRR=0.3364, loss=0.0014, time=12.4s, model saved.
+2025-04-23 23:44:15 [INFO] Epoch 86: new best MRR=0.3376, loss=0.0014, time=12.7s, model saved.
+2025-04-23 23:44:28 [INFO] Epoch 87: MRR=0.3367, loss=0.0014, time=12.7s
+2025-04-23 23:44:41 [INFO] Epoch 88: MRR=0.3361, loss=0.0014, time=12.6s
+2025-04-23 23:44:53 [INFO] Epoch 89: new best MRR=0.3393, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:45:06 [INFO] Epoch 90: MRR=0.3380, loss=0.0014, time=12.8s
+2025-04-23 23:45:19 [INFO] Epoch 91: MRR=0.3373, loss=0.0014, time=12.6s
+2025-04-23 23:45:32 [INFO] Epoch 92: new best MRR=0.3395, loss=0.0014, time=12.7s, model saved.
+2025-04-23 23:45:44 [INFO] Epoch 93: MRR=0.3383, loss=0.0014, time=12.8s
+2025-04-23 23:45:57 [INFO] Epoch 94: MRR=0.3394, loss=0.0014, time=12.7s
+2025-04-23 23:46:10 [INFO] Epoch 95: MRR=0.3391, loss=0.0014, time=12.7s
+2025-04-23 23:46:22 [INFO] Epoch 96: new best MRR=0.3416, loss=0.0014, time=12.5s, model saved.
+2025-04-23 23:46:35 [INFO] Epoch 97: MRR=0.3401, loss=0.0014, time=12.7s
+2025-04-23 23:46:48 [INFO] Epoch 98: MRR=0.3402, loss=0.0014, time=12.8s
+2025-04-23 23:47:00 [INFO] Epoch 99: MRR=0.3414, loss=0.0014, time=12.7s
+2025-04-23 23:47:13 [INFO] Epoch 100: MRR=0.3411, loss=0.0014, time=12.6s
+2025-04-23 23:47:26 [INFO] Epoch 101: MRR=0.3413, loss=0.0014, time=12.7s
+2025-04-23 23:47:38 [INFO] Epoch 102: new best MRR=0.3426, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:47:51 [INFO] Epoch 103: new best MRR=0.3434, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:48:04 [INFO] Epoch 104: MRR=0.3411, loss=0.0014, time=12.7s
+2025-04-23 23:48:16 [INFO] Epoch 105: MRR=0.3408, loss=0.0014, time=12.7s
+2025-04-23 23:48:29 [INFO] Epoch 106: MRR=0.3424, loss=0.0014, time=12.8s
+2025-04-23 23:48:42 [INFO] Epoch 107: new best MRR=0.3446, loss=0.0014, time=12.6s, model saved.
+2025-04-23 23:48:54 [INFO] Epoch 108: MRR=0.3430, loss=0.0014, time=12.5s
+2025-04-23 23:49:07 [INFO] Epoch 109: MRR=0.3430, loss=0.0014, time=12.2s
+2025-04-23 23:49:19 [INFO] Epoch 110: MRR=0.3439, loss=0.0014, time=12.7s
+2025-04-23 23:49:32 [INFO] Epoch 111: MRR=0.3440, loss=0.0014, time=12.6s
+2025-04-23 23:49:44 [INFO] Epoch 112: MRR=0.3422, loss=0.0014, time=12.5s
+2025-04-23 23:49:57 [INFO] Epoch 113: MRR=0.3439, loss=0.0014, time=12.4s
+2025-04-23 23:50:09 [INFO] Epoch 114: new best MRR=0.3461, loss=0.0014, time=12.5s, model saved.
+2025-04-23 23:50:22 [INFO] Epoch 115: MRR=0.3447, loss=0.0014, time=12.4s
+2025-04-23 23:50:34 [INFO] Epoch 116: MRR=0.3426, loss=0.0014, time=12.3s
+2025-04-23 23:50:47 [INFO] Epoch 117: MRR=0.3453, loss=0.0014, time=12.5s
+2025-04-23 23:50:59 [INFO] Epoch 118: MRR=0.3432, loss=0.0014, time=12.5s
+2025-04-23 23:51:12 [INFO] Epoch 119: MRR=0.3442, loss=0.0014, time=12.5s
+2025-04-23 23:51:24 [INFO] Epoch 120: MRR=0.3435, loss=0.0014, time=12.6s
+2025-04-23 23:51:37 [INFO] Epoch 121: MRR=0.3431, loss=0.0014, time=12.6s
+2025-04-23 23:51:49 [INFO] Epoch 122: MRR=0.3425, loss=0.0014, time=12.5s
+2025-04-23 23:52:02 [INFO] Epoch 123: MRR=0.3456, loss=0.0014, time=12.5s
+2025-04-23 23:52:14 [INFO] Epoch 124: MRR=0.3441, loss=0.0014, time=12.5s
+2025-04-23 23:52:27 [INFO] Epoch 125: MRR=0.3454, loss=0.0014, time=12.6s
+2025-04-23 23:52:39 [INFO] Epoch 126: MRR=0.3461, loss=0.0014, time=12.5s
+2025-04-23 23:52:52 [INFO] Epoch 127: MRR=0.3461, loss=0.0014, time=12.5s
+2025-04-23 23:53:04 [INFO] Epoch 128: MRR=0.3443, loss=0.0014, time=12.4s
+2025-04-23 23:53:17 [INFO] Epoch 129: MRR=0.3447, loss=0.0014, time=12.5s
+2025-04-23 23:53:29 [INFO] Epoch 130: MRR=0.3453, loss=0.0014, time=12.6s
+2025-04-23 23:53:42 [INFO] Epoch 131: MRR=0.3457, loss=0.0014, time=12.5s
+2025-04-23 23:53:54 [INFO] Epoch 132: MRR=0.3458, loss=0.0014, time=12.5s
+2025-04-23 23:54:07 [INFO] Epoch 133: MRR=0.3441, loss=0.0014, time=12.5s
+2025-04-23 23:54:19 [INFO] Epoch 134: MRR=0.3433, loss=0.0014, time=12.4s
+2025-04-23 23:54:32 [INFO] Epoch 135: MRR=0.3454, loss=0.0014, time=12.6s
+2025-04-23 23:54:44 [INFO] Epoch 136: MRR=0.3453, loss=0.0014, time=12.4s
+2025-04-23 23:54:57 [INFO] Epoch 137: MRR=0.3449, loss=0.0014, time=12.6s
+2025-04-23 23:55:09 [INFO] Epoch 138: new best MRR=0.3467, loss=0.0014, time=12.5s, model saved.
+2025-04-23 23:55:22 [INFO] Epoch 139: MRR=0.3449, loss=0.0014, time=12.5s
+2025-04-23 23:55:34 [INFO] Epoch 140: MRR=0.3467, loss=0.0014, time=12.4s
+2025-04-23 23:55:47 [INFO] Epoch 141: MRR=0.3450, loss=0.0014, time=12.5s
+2025-04-23 23:55:59 [INFO] Epoch 142: MRR=0.3452, loss=0.0014, time=12.4s
+2025-04-23 23:56:12 [INFO] Epoch 143: MRR=0.3448, loss=0.0014, time=12.5s
+2025-04-23 23:56:24 [INFO] Epoch 144: MRR=0.3464, loss=0.0014, time=12.4s
+2025-04-23 23:56:36 [INFO] Epoch 145: MRR=0.3465, loss=0.0014, time=12.4s
+2025-04-23 23:56:48 [INFO] Epoch 146: MRR=0.3454, loss=0.0014, time=12.2s
+2025-04-23 23:57:01 [INFO] Epoch 147: new best MRR=0.3479, loss=0.0014, time=12.3s, model saved.
+2025-04-23 23:57:13 [INFO] Epoch 148: MRR=0.3470, loss=0.0014, time=12.4s
+2025-04-23 23:57:26 [INFO] Epoch 149: MRR=0.3469, loss=0.0014, time=12.4s
+2025-04-23 23:57:38 [INFO] Epoch 150: MRR=0.3460, loss=0.0013, time=12.5s
+2025-04-23 23:57:51 [INFO] Epoch 151: MRR=0.3478, loss=0.0014, time=12.4s
+2025-04-23 23:58:03 [INFO] Epoch 152: MRR=0.3461, loss=0.0014, time=12.4s
+2025-04-23 23:58:15 [INFO] Epoch 153: MRR=0.3465, loss=0.0013, time=12.0s
+2025-04-23 23:58:27 [INFO] Epoch 154: MRR=0.3454, loss=0.0014, time=12.4s
+2025-04-23 23:58:40 [INFO] Epoch 155: MRR=0.3470, loss=0.0014, time=12.1s
+2025-04-23 23:58:52 [INFO] Epoch 156: MRR=0.3477, loss=0.0013, time=12.8s
+2025-04-23 23:59:05 [INFO] Epoch 157: MRR=0.3465, loss=0.0013, time=12.6s
+2025-04-23 23:59:18 [INFO] Epoch 158: MRR=0.3478, loss=0.0013, time=12.7s
+2025-04-23 23:59:30 [INFO] Epoch 159: MRR=0.3464, loss=0.0013, time=12.7s
+2025-04-23 23:59:43 [INFO] Epoch 160: MRR=0.3473, loss=0.0014, time=12.5s
+2025-04-23 23:59:55 [INFO] Epoch 161: MRR=0.3478, loss=0.0013, time=12.6s
+2025-04-24 00:00:08 [INFO] Epoch 162: MRR=0.3471, loss=0.0013, time=12.5s
+2025-04-24 00:00:20 [INFO] Epoch 163: MRR=0.3475, loss=0.0013, time=12.6s
+2025-04-24 00:00:33 [INFO] Epoch 164: MRR=0.3477, loss=0.0013, time=12.4s
+2025-04-24 00:00:45 [INFO] Epoch 165: MRR=0.3475, loss=0.0013, time=12.5s
+2025-04-24 00:00:58 [INFO] Epoch 166: MRR=0.3460, loss=0.0013, time=12.5s
+2025-04-24 00:01:10 [INFO] Epoch 167: MRR=0.3461, loss=0.0013, time=12.5s
+2025-04-24 00:01:23 [INFO] Epoch 168: new best MRR=0.3481, loss=0.0013, time=12.4s, model saved.
+2025-04-24 00:01:35 [INFO] Epoch 169: MRR=0.3468, loss=0.0013, time=12.4s
+2025-04-24 00:01:48 [INFO] Epoch 170: new best MRR=0.3491, loss=0.0013, time=12.3s, model saved.
+2025-04-24 00:02:00 [INFO] Epoch 171: MRR=0.3477, loss=0.0013, time=12.5s
+2025-04-24 00:02:13 [INFO] Epoch 172: MRR=0.3465, loss=0.0013, time=12.3s
+2025-04-24 00:02:25 [INFO] Epoch 173: MRR=0.3481, loss=0.0013, time=12.6s
+2025-04-24 00:02:38 [INFO] Epoch 174: MRR=0.3465, loss=0.0013, time=12.5s
+2025-04-24 00:02:50 [INFO] Epoch 175: MRR=0.3473, loss=0.0013, time=12.3s
+2025-04-24 00:03:03 [INFO] Epoch 176: MRR=0.3484, loss=0.0013, time=12.5s
+2025-04-24 00:03:15 [INFO] Epoch 177: MRR=0.3473, loss=0.0013, time=12.1s
+2025-04-24 00:03:27 [INFO] Epoch 178: MRR=0.3480, loss=0.0013, time=12.2s
+2025-04-24 00:03:39 [INFO] Epoch 179: MRR=0.3478, loss=0.0013, time=12.5s
+2025-04-24 00:03:52 [INFO] Epoch 180: MRR=0.3488, loss=0.0013, time=12.5s
+2025-04-24 00:04:05 [INFO] Epoch 181: MRR=0.3487, loss=0.0013, time=12.8s
+2025-04-24 00:04:17 [INFO] Epoch 182: MRR=0.3488, loss=0.0013, time=12.8s
+2025-04-24 00:04:31 [INFO] Epoch 183: MRR=0.3489, loss=0.0013, time=13.2s
+2025-04-24 00:04:43 [INFO] Epoch 184: MRR=0.3487, loss=0.0013, time=12.5s
+2025-04-24 00:04:56 [INFO] Epoch 185: new best MRR=0.3504, loss=0.0013, time=12.5s, model saved.
+2025-04-24 00:05:09 [INFO] Epoch 186: MRR=0.3487, loss=0.0013, time=12.8s
+2025-04-24 00:05:21 [INFO] Epoch 187: MRR=0.3486, loss=0.0013, time=12.6s
+2025-04-24 00:05:34 [INFO] Epoch 188: MRR=0.3482, loss=0.0013, time=12.5s
+2025-04-24 00:05:46 [INFO] Epoch 189: MRR=0.3484, loss=0.0013, time=12.4s
+2025-04-24 00:05:59 [INFO] Epoch 190: MRR=0.3488, loss=0.0013, time=12.6s
+2025-04-24 00:06:11 [INFO] Epoch 191: MRR=0.3492, loss=0.0013, time=12.5s
+2025-04-24 00:06:24 [INFO] Epoch 192: MRR=0.3498, loss=0.0013, time=12.6s
+2025-04-24 00:06:36 [INFO] Epoch 193: MRR=0.3491, loss=0.0013, time=12.6s
+2025-04-24 00:06:49 [INFO] Epoch 194: MRR=0.3496, loss=0.0013, time=12.6s
+2025-04-24 00:07:02 [INFO] Epoch 195: MRR=0.3493, loss=0.0013, time=12.8s
+2025-04-24 00:07:15 [INFO] Epoch 196: MRR=0.3494, loss=0.0013, time=13.1s
+2025-04-24 00:07:27 [INFO] Epoch 197: MRR=0.3499, loss=0.0013, time=12.5s
+2025-04-24 00:07:40 [INFO] Epoch 198: MRR=0.3486, loss=0.0013, time=12.8s
+2025-04-24 00:07:53 [INFO] Epoch 199: new best MRR=0.3512, loss=0.0013, time=12.6s, model saved.
+2025-04-24 00:08:06 [INFO] Epoch 200: MRR=0.3498, loss=0.0013, time=12.8s
+2025-04-24 00:08:08 [INFO] Test results — MRR: 0.3447, Hits@1: 0.2552, Hits@3: 0.3779, Hits@10: 0.5244
